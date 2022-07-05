@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tic-tac-toe
+  description: Analyzer
+  annotations:
+    github.com/project-slug: rikez/TicTacToe
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: production
+  owner: dg-devex-team
